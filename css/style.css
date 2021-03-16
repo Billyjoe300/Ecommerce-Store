@@ -1,0 +1,660 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html, body {
+font-family: 'Open Sans', sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+}
+
+li {
+  font-size: 15px;
+  padding: 20px;
+  color: white;
+  font-family:Rise of Kingdom;
+}
+
+@font-face {
+  src: url(Rise of Kingdom.ttf);
+  font-family: Rise of kingdom;
+}
+
+.dropdown {
+font-family: Rise of Kingdom;
+}
+
+li:hover {
+color: gold;
+}
+
+li a {
+display: inline;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+.product-images{
+width: 200px;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.mySlides {
+background-size: contain;
+width: 100%;
+height: 350px;
+background-color: #05b1eb;
+}
+
+.Times2 {
+color: white;
+font-size: 25px;
+display: none;
+margin-left: auto;
+margin-right: auto;
+margin-top: -75px;
+margin-right: 141px;
+}
+
+.Times {
+display: none;
+}
+
+.mySlides-fade {
+background-size: contain;
+width: 100%;
+}
+
+.row {
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font: inherit;
+margin: 0;
+}
+
+.dropdown .dropbtn:hover {
+color: yellow;
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #333;
+width: 100%;
+left: 0;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+margin-top: -4px;
+}
+
+.dropdown-content .header {
+  border-top: 1px solid white;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: grey;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  color: white;
+
+}
+
+.Title-cards {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  width: 70%;
+}
+
+.Title2 {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.line {
+  border-top: 4px solid rgb(27,106,176);
+  width: 100%;
+}
+
+.Title3 {
+color: white;
+font-size: 20px;
+padding: 10px;
+width: 100%;
+}
+
+
+.blue-box {
+  width: 100%;
+  height: 74px;
+  background: #005ac6;
+}
+
+.hamburger {
+  display: none;
+}
+
+.slider {
+  background-size: contain;
+  width: 100%;
+}
+
+
+.dropdown1 {
+  display: none;
+}
+
+.topnav {
+  display: none;
+}
+
+
+footer {
+  background: black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+ 
+}
+
+#B {
+display: none;
+}
+
+.logo {
+  width: 5%;
+  float: left;
+  padding: 20px;
+  margin-left: 100px
+}
+
+
+.fa-facebook {
+border: 2px solid rgba(255,255,255,.3);
+width: 11px;
+padding: 12px;
+color: white;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+height: 12px;
+font-size: 15px;
+}
+
+.fa-instagram {
+border: 2px solid rgba(255,255,255,.3);
+width: 11px;
+padding: 12px;
+color: white;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+height: 12px;
+font-size: 15px;
+}
+
+.fa-instagram:hover {
+  background: #3f729b;
+}
+
+.fa-facebook:hover {
+background: #3b5998;
+}
+
+.fa-youtube {
+border: 2px solid rgba(255,255,255,.3);
+width: 11px;
+padding: 12px;
+color: white;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+height: 12px;
+font-size: 15px;
+}
+
+.fa-youtube:hover {
+background: #c4302b;
+}
+
+.fa-twitter {
+border: 2px solid rgba(255,255,255,.3);
+width: 11px;
+padding: 12px;
+color: white;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+height: 12px;
+font-size: 15px;
+}
+
+.fa-twitter:hover {
+background: #00acee;
+}
+
+.fa-twitch {
+border: 2px solid rgba(255,255,255,.3);
+width: 11px;
+padding: 12px;
+color: white;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+height: 12px;
+font-size: 15px;
+
+}
+
+.fa-twitch:hover {
+background: #6441a5;
+}
+
+.footer-link {
+display: block;
+padding: 2px;
+color: grey;
+margin-top: 10px;
+}
+
+.Legal-title {
+color: white;
+padding-top: 45px;
+margin-left: auto;
+margin-left: auto;
+width: 67%;
+}
+
+#footerlink {
+padding-top:50px;
+margin-left: auto;
+margin-left: auto;
+width: 67%;
+}
+
+.row-box {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin-top: 100px;
+}
+
+.box1 {
+padding: 23px;
+height: 359px;
+width: 317px;
+}
+
+.cart-row {
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+
+th {
+padding: 10px;
+}
+
+.box2 {
+padding: 23px;
+height: 359px;
+width: 10%;
+}
+
+.View-all {
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-left: 698px;
+padding-top: 72px;
+}
+
+.box3 {
+height: 359px;
+width: 317px;
+padding: 23px;
+}
+
+.Register {
+float: right;
+text-decoration: none;
+color: white;
+padding: 10px;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+.wish-list {
+float: right;
+text-decoration: none;
+color: white;
+margin-right: 200px;
+padding: 10px;
+}
+
+.add-cart {
+float: right;
+text-decoration: none;
+color: white;
+margin-right: 40px;
+margin-top: 10px;
+}
+
+.Login {
+float: right;
+text-decoration: none;
+color: white;
+font-size: 15px;
+margin-right: 53px;
+padding: 10px;
+margin-top: 10px;
+}
+
+.new-release {
+text-align: center;
+margin: 75px;
+font-family: Rise of Kingdom;
+}
+
+.New-release-box {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.New-release-box1 {
+  height: 200px;
+}
+
+.New-release-box2 {
+  height: 200px;
+}
+
+.New-release-box3 {
+  height: 200px;
+}
+
+.New-release-box4 {
+  height: 200px;
+}
+
+.New-release-box5 {
+  height: 200px;
+}
+
+.New-release-box6 {
+  height: 200px;
+}
+
+
+slider 
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.icon-box-1{
+width: 10px;
+height: 10px;
+border-radius: 47px;
+border: 1px solid black;
+cursor: pointer;
+margin: 5px;
+}
+
+
+.icon-box-1:hover {
+background: grey;
+}
+
+
+.icon-box-2{
+width: 10px;
+height: 10px;
+border-radius: 47px;
+border: 1px solid black;
+cursor: pointer;
+margin: 5px;
+}
+
+.icon-box-3{
+width: 10px;
+height: 10px;
+border-radius: 47px;
+border: 1px solid black;
+cursor: pointer;
+margin: 5px;
+}
+
+.accounts {
+margin-top: 20px;
+}
+
+.fa-times {
+display: none;
+}
+
+.icon-box-4{
+width: 10px;
+height: 10px;
+border-radius: 47px;
+border: 1px solid black;
+cursor: pointer;
+margin: 5px;
+}
+
+.icon-boxs {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Searchbar {
+position: absolute;
+padding-top: 1px;
+margin-top: 14px;
+width: 22%;
+height: 16px;
+padding: 10px;
+margin-left: -214px;
+border-radius: 3px;
+font-size: 16px;
+font-family: 'Open Sans';
+outline-style: none;
+box-shadow: none;
+}
+
+#btn-cart {
+border: none;
+background: #005ac6;
+width: 86%;
+height: 38px;
+padding: 8px;
+margin: 10px;
+cursor: pointer;
+color: white;
+font-size: 16px;
+font-family: inherit;
+outline-style: none;
+box-shadow: none;
+}
+
+#btn-carts {
+font-size: 18px;
+margin-left: 0px;
+height: 50px;
+padding: 20px;
+display: none;
+}
+
+.app-store {
+
+}
+
+#home-background {
+width: 100%;
+height: 30px;
+background-color: yellow;
+display: none;
+}
+
+.cart-box {
+width: 135px;
+height: 42px;
+float: right;
+border: 1px solid rgba(255, 255, 255, 0.25);
+margin: 7px;
+}
+
+.numbers {
+width: 3%;
+height: 50px;
+background: #ffc701;
+border: none;
+font-family:Rise of Kingdom;
+cursor: pointer;
+margin: 5px;
+}
+
+.numbers:hover {
+background: #333;
+}
+
+.product-box {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.product-box1 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Title {
+margin-top: -6px;
+display: block;
+font-size: 20px;
+width: 193px;
+text-align: center;
+margin-left: -14px;
+color: black;
+padding: 17px;
+}
+
+.socai-media {
+  display: flex;
+}
+
+.price {
+margin-top: -9px;
+margin-left: auto;
+margin-right: auto;
+width: 36%;
+}
+
+.Title:hover {
+color: #005ac6;
+}
+
+
+
+/*
+banner ad*/
